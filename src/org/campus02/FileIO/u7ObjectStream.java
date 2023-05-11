@@ -2,7 +2,7 @@ package org.campus02.FileIO;
 
 import java.io.*;
 
-public class u7ObjectStream_gehtNICHT {
+public class u7ObjectStream {
     public static void main(String[] args) {
 
         File f = new File("C:\\Campus02\\2.Semester\\Erweiterte Themen der Softwareentwicklung\\Übungsbeispiele\\object.dat");
@@ -20,7 +20,7 @@ public class u7ObjectStream_gehtNICHT {
             oos.writeObject(stringObjekt);
             oos.flush();
             oos.close();
-            //os.close();  muss ich nicht extra closen
+            //fos.close();  muss ich nicht extra closen
 
 
             FileInputStream fis= new FileInputStream(f);
@@ -28,6 +28,8 @@ public class u7ObjectStream_gehtNICHT {
 
             String gelesenerText = (String) ois.readObject();
             System.out.println(gelesenerText);
+
+            ois.close(); //!!!!!
 
         }
         catch (FileNotFoundException e) {

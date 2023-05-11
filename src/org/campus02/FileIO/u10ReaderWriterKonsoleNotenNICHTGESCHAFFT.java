@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class u10ReaderWriterKonsoleNoten {
+public class u10ReaderWriterKonsoleNotenNICHTGESCHAFFT {
     // IO Folien S. 74
     public static void main(String[] args) {
         File f = new File("C:\\Campus02\\2.Semester\\Erweiterte Themen der Softwareentwicklung\\Übungsbeispiele\\Uebungs_Objektspeicher\\u10Noten.txt");

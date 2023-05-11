@@ -4,10 +4,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Arrays;
 
 //geht mit .txt Datei, aber nicht mit Word!
-public class InputStreamDemo {
+public class u2InputStreamDemo {
     public static void main(String[] args) {
 
         File file = new File("C:\\Campus02\\2.Semester\\Erweiterte Themen der Softwareentwicklung\\Übungsbeispiele\\Zahlen.txt");

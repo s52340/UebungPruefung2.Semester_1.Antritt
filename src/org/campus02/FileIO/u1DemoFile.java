@@ -3,7 +3,7 @@ package org.campus02.FileIO;
 import java.io.File;
 import java.util.Arrays;
 
-public class DemoFile {
+public class u1DemoFile {
     public static void main(String[] args) {
 
         File file = new File("C:\\Campus02\\2.Semester\\Erweiterte Themen der Softwareentwicklung\\Übungsbeispiele\\ZahlenWord.docx");

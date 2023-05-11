@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class u6OutputStream4VonKonsoleEinlesen {
+public class u6OutputStreamVonKonsoleEinlesen {
     public static void main(String[] args) {
 
         File file = new File("C:\\Campus02\\2.Semester\\Erweiterte Themen der Softwareentwicklung\\Übungsbeispiele\\KonsoleEinfügen.txt");

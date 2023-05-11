@@ -2,7 +2,7 @@ package org.campus02.FileIO;
 
 import java.io.*;
 
-public class u5OutputStream3Inputstream {
+public class u5OutputStreamInputstream {
     public static void main(String[] args) {
         File file = new File("C:\\Campus02\\2.Semester\\Erweiterte Themen der Softwareentwicklung\\Übungsbeispiele\\GuteNachtGeschichte.txt");
 

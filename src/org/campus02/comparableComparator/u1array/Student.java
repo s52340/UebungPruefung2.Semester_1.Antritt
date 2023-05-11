@@ -1,4 +1,4 @@
-package org.campus02.comparableComparator.array;
+package org.campus02.comparableComparator.u1array;
 
 import java.util.Objects;
 

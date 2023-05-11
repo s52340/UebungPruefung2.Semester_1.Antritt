@@ -2,7 +2,7 @@ package org.campus02.Uebungsblaetter.Uebungsabend180423;
 
 import java.util.Comparator;
 
-public class EinwohnerCompdescGebJahr implements Comparator<Einwohner> {
+public class ComparatorEinwohnerdescGebJahr implements Comparator<Einwohner> {
 
     @Override
     public int compare(Einwohner o1, Einwohner o2) {

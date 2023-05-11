@@ -1,4 +1,4 @@
-package org.campus02.comparableComparator.collections;
+package org.campus02.comparableComparator.u2collections;
 
 import java.util.Comparator;
 

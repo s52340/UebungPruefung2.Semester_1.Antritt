@@ -1,4 +1,4 @@
-package org.campus02.FileIO.u11cvsPersonen;
+package org.campus02.FileIO.u11cvsPersonenNICHTGESCHAFT;
 
 import java.util.Objects;
 

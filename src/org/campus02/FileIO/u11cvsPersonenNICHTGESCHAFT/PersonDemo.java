@@ -1,4 +1,4 @@
-package org.campus02.FileIO.u11cvsPersonen;
+package org.campus02.FileIO.u11cvsPersonenNICHTGESCHAFT;
 
 public class PersonDemo {
     public static void main(String[] args) {

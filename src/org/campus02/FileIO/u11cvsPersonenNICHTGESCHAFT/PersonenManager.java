@@ -1,4 +1,4 @@
-package org.campus02.FileIO.u11cvsPersonen;
+package org.campus02.FileIO.u11cvsPersonenNICHTGESCHAFT;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 public class PersonenManager {
 
+    //Folien S. 93 !!
     ArrayList<Person> persons = new ArrayList<>();
     public void load(String path){
         try (BufferedReader br = new BufferedReader(
@@ -14,8 +15,8 @@ public class PersonenManager {
             String zeile;
             while ((zeile = br.readLine()) != null){
                 zeile.split(",");
-                Person p = new Person()
-                persons.add();
+               // Person p = new Person();
+               // persons.add(p);
             }
 
 
